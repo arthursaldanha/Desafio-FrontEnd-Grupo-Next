@@ -19,7 +19,7 @@ O objetivo do projeto é clonar um design para testar meus conhecimentos com o d
 
 ### Link do Projeto
 
-- URL do projeto ativo: [Projeto ativo](https://arthursaldanha.github.io/Weather-Search/)
+- URL do projeto ativo: [Projeto ativo](https://desafiofrontendgruponext.netlify.app/)
 
 ## Autor
 
