@@ -2,6 +2,8 @@
 
 Este projeto foi passado pelo Grupo Next para clonar uma possível página web!
 
+![Captura de tela 2021-12-21 151052](https://user-images.githubusercontent.com/30752069/146978255-e2463709-d157-443c-9aa4-921e76589a9e.png)
+
 ## Índice
 
 - [Visão geral](#visão-geral)
