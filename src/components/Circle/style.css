@@ -1,0 +1,43 @@
+.circles {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.c-circles {
+  height: 800px;
+  position: relative;
+  width: 1400px;
+}
+
+.circle-1 {
+  background-color: transparent;
+  border-radius: 50%;
+  border: 5px solid #00a869;
+  height: 800px;
+  left: 75px;
+  position: absolute;
+  width: 800px;
+}
+
+.circle-2 {
+  background-color: transparent;
+  border-radius: 50%;
+  border: 5px solid #00df88;
+  height: 600px;
+  position: absolute;
+  right: 75px;
+  top: 110px;
+  width: 600px;
+}
+
+.p-rectangle {
+  background-image: -webkit-linear-gradient(to top, #282946, #34365b);
+  background-image: linear-gradient(to top, #282946, #34365b);
+  height: 419px;
+  position: absolute;
+  right: 521px;
+  top: 197px;
+  width: 160px;
+}

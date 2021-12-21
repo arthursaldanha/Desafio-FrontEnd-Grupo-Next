@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
+  align-items: center;
   display: flex;
-  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+}
+
+.w-circles {
+  height: 800px;
+  position: absolute;
+  width: 1400px;
+  z-index: 1;
+}
+
+.w-content {
+  height: 800px;
+  position: absolute;
+  width: 1400px;
+  z-index: 2;
+}
+
+.title-banner {
+  background-color: #3d406b;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #fff;
+  font: normal normal 700 30px/35px "Poppins";
+  left: 50%;
+  padding: 30px 50px;
+  position: absolute;
+  top: -23px;
+  transform: translate(-50%, 0);
+  width: 720px;
+}
+
+.title-banner span {
+  color: #26ee9c;
+}
+
+.w-cards {
+  width: 750px;
+  position: relative;
+  top: 130px;
+  left: 320px;
+}
+
+.modified-card {
+  border: 1px solid #00ff97;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 352px;
+  border-radius: 40px;
+}
+
+.modified-card-title {
+  padding: 20px;
+  text-align: center;
+  background-color: #00ff97;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 35px 35px 0 0;
 }
 
-.App-link {
-  color: #61dafb;
+.svg-heart {
+  filter: invert(100%) sepia(88%) saturate(2%) hue-rotate(219deg)
+    brightness(112%) contrast(101%);
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modified-card-title span {
+  color: #fff;
+  font: normal normal 400 18px "Poppins";
+}
+
+.mini-card {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #525252;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font: normal normal 600 14px/16px "Poppins";
+  padding: 20px;
+  text-align: center;
+  width: 220px;
+}
+
+.mini-card-1 {
+  left: -190px;
+  padding: 20px 9px;
+  position: absolute;
+  top: 215px;
+}
+
+.mini-card-2 {
+  position: absolute;
+  right: -190px;
+  top: 215px;
 }

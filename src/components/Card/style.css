@@ -1,0 +1,115 @@
+.card {
+  padding: 35px 35px 70px;
+  width: 350px;
+  border-radius: 0 0 40px 40px;
+}
+
+.c-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.plan-type {
+  background-color: #23253b;
+  border-radius: 15px;
+  color: #fff;
+  font: normal normal 700 16px "Poppins";
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+  padding: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.c-value {
+  background-image: #45497c;
+  background-image: -webkit-linear-gradient(to top, #2b2d4e, #45497c);
+  background-image: linear-gradient(to top, #2b2d4e, #45497c);
+  border-radius: 20px 20px 0 0;
+  padding: 30px 15px 35px;
+  position: relative;
+  width: 270px;
+}
+
+.title-card-value {
+  text-align: center;
+  color: #fff;
+  font: normal normal normal 15px Helvetica;
+  margin-bottom: 10px;
+}
+
+.card-value {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-value span:nth-child(n) {
+  color: #fff;
+}
+
+.card-value span:nth-child(2n + 1) {
+  font: normal normal 500 16px Helvetica;
+}
+
+.card-value span:nth-child(2) {
+  font: normal normal 700 72px "Poppins";
+  margin: 0px 10px;
+}
+
+.sign-plan {
+  background-color: #23253b;
+  border-radius: 500px;
+  border: 2px solid #03ec8f;
+  bottom: -30px;
+  color: #fff;
+  font: normal normal 700 22px "Poppins";
+  left: 0px;
+  letter-spacing: 3px;
+  padding: 5px 0px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.c-descriptions {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.description {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.svg-check {
+  filter: invert(80%) sepia(16%) saturate(5809%) hue-rotate(99deg)
+    brightness(95%) contrast(98%);
+  height: 25px;
+  width: 25px;
+}
+
+.svg-close {
+  filter: invert(15%) sepia(66%) saturate(7127%) hue-rotate(358deg)
+    brightness(101%) contrast(120%);
+  height: 25px;
+  width: 25px;
+}
+
+.description div {
+  margin-left: 5px;
+}
+
+.description div span {
+  color: #fff;
+  font: normal normal 500 16px Helvetica;
+}
